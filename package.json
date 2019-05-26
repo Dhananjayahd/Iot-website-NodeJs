@@ -1,0 +1,22 @@
+{
+  "name": "iotfront",
+  "version": "1.0.0",
+  "description": "iot website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "dhananjaya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "11.9.0"
+  }
+}
