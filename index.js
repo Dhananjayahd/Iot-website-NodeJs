@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const app = express()
 const path = require('path')
 const port = process.env.PORT||3000
-const fetch=require('node-fetch')
+//const fetch=require('node-fetch')
 const state = require('./routes/api/state')
 
 const db = 'mongodb+srv://dhananjaya:575gmail@cluster1-agn5p.mongodb.net/test?retryWrites=true'
