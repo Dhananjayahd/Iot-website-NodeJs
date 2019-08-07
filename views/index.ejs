@@ -40,13 +40,13 @@
     </style>
 </head>
 <body>
-    
     <h2>Control Your Home Appliances Here</h2>
+    <h4 id="btns1"></h4>
     <div class="btn">
-        <form action="/api/state/data" method="GET">
-            <button type="submit" name="state" value="ledon" id="btn1"  class="btn btn-primary">ledon</button>
-            <button type="submit" name="state" value="ledoff" id="btn2" class="btn btn-primary">LedOff</button>
-        </form>
+        <input name="button" onclick="button()" id="btn1" class="btn btn-primary" type="button" value="LedOn">
+        <input name="button" onclick="buttonoff()" id="btn2" class="btn btn-primary" type="button" value="LedOff">
     </div>
 </body>
- </html>
+<script src="client.js" type="text/javascript"></script> 
+ 
+</html>
